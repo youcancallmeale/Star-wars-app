@@ -1,0 +1,18 @@
+@import '../../view/styles/styles.scss';
+
+.container {
+    flex-flow: column;
+    max-width: 400px;
+    margin: auto;
+    justify-content: center;
+    font-family: $fontStyle;
+    color: $loadingTxtColor;
+    text-align: center;
+    font-size: 1.5em;
+
+    &__loader {
+        margin: auto;
+        width: 100%;
+    }
+
+}

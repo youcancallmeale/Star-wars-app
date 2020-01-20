@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`#GAME COMPONENT ==> Fetch request works fine 1`] = `
+<div
+  className="container"
+>
+  <img
+    alt="Loading..."
+    className="container__loader"
+    src="loader.gif"
+  />
+  Loading...
+</div>
+`;
+
+exports[`#GAME COMPONENT ==> Game component renders without crashing 1`] = `
+<div
+  className="container"
+>
+  <img
+    alt="Loading..."
+    className="container__loader"
+    src="loader.gif"
+  />
+  Loading...
+</div>
+`;

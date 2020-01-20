@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error page renders without crashing 1`] = `
+<div>
+  <span>
+    Oh No!! We've got a problem!
+  </span>
+  <a
+    href="/"
+    onClick={[Function]}
+  >
+    Restart
+  </a>
+</div>
+`;

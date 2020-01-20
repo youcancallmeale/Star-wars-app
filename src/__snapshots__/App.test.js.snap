@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App renders without crashing 1`] = `
+<div
+  className="main"
+>
+  <div
+    className="start"
+  >
+    <img
+      alt="logo"
+      className="start__logo"
+      src="star-wars-logo.png"
+    />
+    <a
+      className="start__play"
+      href="/game"
+      onClick={[Function]}
+    >
+      START
+    </a>
+  </div>
+</div>
+`;
