@@ -5,14 +5,8 @@
 
 Star wars game desenvolvido com `React.js, Sass` e testado com `Jest`. Padrao CSS BEM (Block-Element-Modifier).
 
-### Primeira tela (Tela de inicio)
-![Primeira tela](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page1.png?raw=true)
-
-### Segunda tela (Tela de carregamento)
-![Segunda tela](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page2.png?raw=true)
-
-### Terceira tela (Tela do card)
-![Terceira tela](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page3.png?raw=true)
+### Tela do app
+![App](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page3.png?raw=true)
 
 ## Requisitos
 
