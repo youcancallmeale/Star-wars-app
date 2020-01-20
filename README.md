@@ -1,12 +1,12 @@
 # AME Digital | Desafio
-![AME Digital](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/ame-logo.png?raw=true =100x100)
+![AME Digital](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/ame-logo.png?raw=true)
 
 ![GitHub repo size](https://img.shields.io/github/languages/code-size/alesandrobarbosa/AME-Digital-Desafio)
 
-Star wars game desenvolvido com `React.js, Sass` e testado com `Jest`. Padrao CSS BEM (Block-Element-Modifier)+.
+Star wars game desenvolvido com `React.js, Sass` e testado com `Jest`. Padrao CSS BEM (Block-Element-Modifier).
 
 ### Primeira tela (Tela de inicio)
-![Primeira tela](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page1.png?raw=true =400x400)
+![Primeira tela](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page1.png?raw=true)
 
 ### Segunda tela (Tela de carregamento)
 ![Segunda tela](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page2.png?raw=true)
