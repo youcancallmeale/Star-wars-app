@@ -3,7 +3,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/languages/code-size/alesandrobarbosa/AME-Digital-Desafio)
 
-Star wars game desenvolvido com `React.js, Sass` e testado com `Jest`. Padrao CSS BEM (Block-Element-Modifier).
+Star wars game desenvolvido com `React.js, Sass` e testado com `Jest`. Padrao CSS `BEM (Block-Element-Modifier)`.
 
 ### Tela do app
 ![App](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page3.png?raw=true)
@@ -39,7 +39,7 @@ npm test
 ```
 
 Cobertura de codigo:
-`<caminho>/coverage/lcov-report/index.html para ver tabela de cobertura de codigo no browser`
+`<caminho>/coverage/lcov-report/index.html` para ver tabela de cobertura de codigo no browser
 
 ## Contatos
 
