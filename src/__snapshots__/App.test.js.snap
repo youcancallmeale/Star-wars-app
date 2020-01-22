@@ -7,11 +7,24 @@ exports[`#APP COMPONENT ==> App should renders without crashing 1`] = `
   <div
     className="start"
   >
+    <span
+      className="start__first"
+    >
+      Desafio AME Digital
+    </span>
     <img
       alt="logo"
       className="start__logo"
-      src="star-wars-logo.png"
+      src="star-wars.png"
     />
+    <span
+      className="start__second"
+    >
+      por 
+      <strong>
+        Alesandro Barbosa
+      </strong>
+    </span>
     <a
       className="start__play"
       href="/game"
@@ -20,5 +33,8 @@ exports[`#APP COMPONENT ==> App should renders without crashing 1`] = `
       START
     </a>
   </div>
+  <div
+    className="main__floor"
+  />
 </div>
 `;

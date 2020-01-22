@@ -8,6 +8,7 @@ import { Switch, Route } from 'react-router-dom';
 
 const App = () => {
   return (
+    <>
     <div className="main">
       <Switch>
         <Route path="/" exact component={Start}></Route>
@@ -15,6 +16,7 @@ const App = () => {
       </Switch> 
       <div className="main__floor"></div>
     </div>
+    </>
   );
 
 }

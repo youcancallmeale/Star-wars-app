@@ -7,7 +7,7 @@ exports[`#LAODING COMPONENT ==> Loading should renders without crashing  1`] = `
   <img
     alt="Loading..."
     className="container__loader"
-    src="loader.gif"
+    src="loader.png"
   />
   Loading...
 </div>

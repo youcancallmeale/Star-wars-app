@@ -7,7 +7,7 @@ exports[`#GAME COMPONENT ==> Fetch should request without crashing 1`] = `
   <img
     alt="Loading..."
     className="container__loader"
-    src="loader.gif"
+    src="loader.png"
   />
   Loading...
 </div>
@@ -20,7 +20,7 @@ exports[`#GAME COMPONENT ==> Game component should renders without crashing 1`] 
   <img
     alt="Loading..."
     className="container__loader"
-    src="loader.gif"
+    src="loader.png"
   />
   Loading...
 </div>

@@ -2,11 +2,11 @@
 
 .card {
   margin: auto;
-  display: inline-block;
-  padding: 20px;
-  font-family: $fontStyle;
-  background: $cardBgColor;
-  color: $cardTxtColor;
+  display: block;
+  font-family: "Press Start 2P";
+  font-size: 0.9em;
+  background: #626262;
+  color: #ffffff;
   border: 1px solid #ffffff;
   border-radius: 10px;
   box-shadow: 0px 0px 15px 2px;
@@ -14,11 +14,12 @@
   &__header {
     text-align: center;
     border-style: dashed;
+    border-top: 0;
     border-left: 0;
     border-right: 0;
     h1 {
       line-height: 1.6em;
-      font-size: 1.4em;
+      font-size: 1.2em;
     }
   }
 
@@ -27,8 +28,9 @@
     &--list {
       font-size: 0.8em;
       list-style: none;
-      padding: 20px;
+      padding: 0px 15px;
       max-width: 320px;
+      margin: 0;
       li {
         margin: 20px 0;
         line-height: 1.4em;
@@ -50,13 +52,14 @@
   }
 
   &__next {
+    margin-bottom: 15px;
     &--btn {
-      padding: 15px 60px;
+      padding: 10px 30px;
       background: #ffffff;
+      font-family: "Press Start 2P";
+      font-size: 0.9em;
       display: block;
       margin: auto;
-      font-family: $fontStyle;
-      font-size: 1.2em;
     }
   }
 }
