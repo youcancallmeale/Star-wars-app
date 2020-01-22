@@ -1,7 +1,7 @@
 import React from 'react';
 
 import './loading.scss';
-let loaderImg = require('../../view/img/loader.gif');
+let loaderImg = require('../../view/img/loader.png');
 
 
 const Loading = () => {

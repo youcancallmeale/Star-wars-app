@@ -13,6 +13,7 @@ const App = () => {
         <Route path="/" exact component={Start}></Route>
         <Route path="/game" component={Game}></Route>
       </Switch> 
+      <div className="main__floor"></div>
     </div>
   );
 
