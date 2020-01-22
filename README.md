@@ -7,7 +7,7 @@ Star wars game desenvolvido com:
 
 <ul>
 <li>React.js para criacao de componentes, requisicao API e rotas.</li>
-<li>Pre processador Sass e CSS BEM </li>
+<li>Pre processador Sass e CSS BEM para padrao de escrita.</li>
 <li>Testes com Jest (Snapshots)</li>
 </ul>
 
