@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Loading renders should render 1`] = `
+exports[`#LAODING COMPONENT ==> Loading should renders without crashing  1`] = `
 <div
   className="container"
 >

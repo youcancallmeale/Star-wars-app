@@ -8,14 +8,14 @@ const {Response} = jest.requireActual('node-fetch');
 
 describe('#GAME COMPONENT ==>', () => {
 
-    it('Game component renders without crashing', () => {
+    it('Game component should renders without crashing', () => {
         const component = renderer.create(<Game></Game>);
         let tree = component.toJSON();
         expect(tree).toMatchSnapshot();
 
     });
 
-    it('Fetch request works fine', () => {
+    it('Fetch should request without crashing', () => {
         
         fetchMock.mock('*', 200)
         const rendered = renderer.create(<Game />).toJSON()

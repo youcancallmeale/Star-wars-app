@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`#GAME COMPONENT ==> Fetch request works fine 1`] = `
+exports[`#GAME COMPONENT ==> Fetch should request without crashing 1`] = `
 <div
   className="container"
 >
@@ -13,7 +13,7 @@ exports[`#GAME COMPONENT ==> Fetch request works fine 1`] = `
 </div>
 `;
 
-exports[`#GAME COMPONENT ==> Game component renders without crashing 1`] = `
+exports[`#GAME COMPONENT ==> Game component should renders without crashing 1`] = `
 <div
   className="container"
 >
