@@ -3,7 +3,13 @@
 
 ![GitHub repo size](https://img.shields.io/github/languages/code-size/alesandrobarbosa/AME-Digital-Desafio)
 
-Star wars game desenvolvido com `React.js, Sass` e testado com `Jest`. Padrao CSS `BEM (Block-Element-Modifier)`.
+Star wars game desenvolvido com:
+
+<ul>
+<li>React.js para criacao de componentes, requisicao API e rotas.</li>
+<li>Pre processador Sass e CSS BEM </li>
+<li>Testes com Jest (Snapshots)</li>
+</ul>
 
 ### Tela do app
 ![App](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/screenshots/page3.png?raw=true)
@@ -32,7 +38,7 @@ Para rodar AME Digital, siga os passos abaixo:
 npm start
 ```
 
-Para testar o projeto:
+Para testar o projeto (Foram feitos snapshots dos componentes) :
 
 ```
 npm test 
