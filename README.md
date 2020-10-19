@@ -1,6 +1,3 @@
-# AME Digital | Desafio
-![AME Digital](https://github.com/alesandrobarbosa/AME-Digital-Desafio/blob/master/src/view/img/ame-logo.png?raw=true)
-
 ![GitHub repo size](https://img.shields.io/github/languages/code-size/alesandrobarbosa/AME-Digital-Desafio)
 
 Star wars game desenvolvido com:
