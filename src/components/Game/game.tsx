@@ -1,62 +1,70 @@
 import { usePlanet } from 'hooks/usePlanet';
-import Loading from '../Loading/loading';
-import './game.scss';
+import {
+  Box,
+  Button,
+  Card,
+  CardActions,
+  CardContent,
+  List,
+  ListItem,
+  ListItemText,
+  Typography,
+} from '@mui/material';
 import { Labels } from 'app-constants';
-import Error from 'components/Error/error';
+import ErrorComponent from 'components/ErrorComponent/ErrorComponent';
+import Loading from 'components/Loading/Loading';
 
 const Game = () => {
-  const { data, isLoading, isError, refetch, isFetched, isRefetching } =
-    usePlanet();
+  const { data, isLoading, isError, refetch, isRefetching } = usePlanet();
 
   if (isLoading || isRefetching) {
     return <Loading />;
   }
 
   if (isError) {
-    return <Error />;
+    return (
+      <>
+        <Loading />
+        <ErrorComponent />
+      </>
+    );
   }
 
-  const renderData = () => {
-    if (isFetched) {
-      return (
-        <div className="card">
-          <div className="card__header">
-            <h1>{data?.name}</h1>
-          </div>
-          <div className="card__main">
-            <ul className="card__main--list">
-              <li>
-                <span>{Labels.population}</span>
-                {data?.population}
-              </li>
-              <li>
-                <span>{Labels.climate}</span>
-                {data?.climate}
-              </li>
-              <li>
-                <span>{Labels.terrain}</span>
-                {data?.terrain}
-              </li>
-              <li>
-                <span>Featured in Films</span>
-                {data?.films?.length}
-              </li>
-            </ul>
-          </div>
-          <div className="card__next">
-            <input
-              className="card__next--btn"
-              type="button"
-              value="Next"
-              onClick={() => refetch()}
-            />
-          </div>
-        </div>
-      );
-    }
-  };
-
-  return <>{renderData()}</>;
+  return (
+    <Box sx={{ maxWidth: 400, minWidth: 400, margin: 'auto' }}>
+      <Card variant="outlined">
+        <CardContent>
+          <Typography variant="h1" sx={{ fontSize: 14 }}>
+            {Labels.planetTitle}
+          </Typography>
+          <Typography variant="h2">{data?.name}</Typography>
+          <List>
+            <ListItem disablePadding>
+              <ListItemText
+                primary={`${Labels.population}: ${data?.population}`}
+              />
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemText primary={`${Labels.climate}: ${data?.climate}`} />
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemText primary={`${Labels.terrain}: ${data?.terrain}`} />
+            </ListItem>
+            <ListItem disablePadding>
+              <ListItemText
+                primary={`${Labels.featureInFilms}: ${data?.films?.length}`}
+              />
+            </ListItem>
+          </List>
+        </CardContent>
+        <CardActions>
+          <Button size="small" onClick={() => refetch()}>
+            {Labels.buttonNtx}
+          </Button>
+        </CardActions>
+      </Card>
+    </Box>
+  );
 };
 
 export default Game;
