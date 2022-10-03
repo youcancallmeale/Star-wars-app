@@ -1,9 +1,9 @@
-import Game from './components/Game/game';
-import Start from './components/Start/start';
+import Start from './components/Start/Start';
 import './assets/styles.scss';
 
 import { Routes, Route } from 'react-router-dom';
 import { QueryClient, QueryClientProvider } from '@tanstack/react-query';
+import Game from 'components/Game/Game';
 
 const queryClient = new QueryClient();
 

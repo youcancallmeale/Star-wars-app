@@ -1,5 +1,3 @@
-/* eslint-disable import/no-default-export */
-
 declare module '*.svg' {
   import React = require('react');
 

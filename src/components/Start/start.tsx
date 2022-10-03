@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import './start.scss';
-import Logo from 'assets/loader.png';
+import Logo from 'assets/star-wars.png';
+import { Labels } from 'app-constants';
 
 const Start = () => {
   return (
@@ -8,11 +9,10 @@ const Start = () => {
       <span className="start__first">Desafio AME Digital</span>
       <img className="start__logo" src={Logo} alt="logo" />
       <span className="start__second">
-        por
-        <strong>Alesandro Barbosa</strong>
+        <strong>{Labels.author}</strong>
       </span>
       <Link className="start__play" to="/game">
-        START
+        {Labels.buttonStart}
       </Link>
     </div>
   );
