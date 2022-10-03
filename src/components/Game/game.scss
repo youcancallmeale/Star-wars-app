@@ -1,4 +1,4 @@
-@import "../../view/styles/styles.scss";
+@import "assets/styles.scss";
 
 .card {
   margin: auto;
@@ -24,12 +24,12 @@
   }
 
   &__main {
-    max-width: 320px;
+    min-width: 400px;
+    max-width: 400px;
     &--list {
       font-size: 0.8em;
       list-style: none;
       padding: 0px 15px;
-      max-width: 320px;
       margin: 0;
       li {
         margin: 20px 0;

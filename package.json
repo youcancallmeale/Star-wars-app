@@ -1,23 +1,23 @@
 {
-  "name": "ame-desafio",
-  "version": "0.1.0",
+  "name": "star-wars-app",
+  "version": "0.1.1",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^4.2.4",
-    "@testing-library/react": "^9.4.0",
-    "@testing-library/user-event": "^7.2.1",
-    "chai": "^4.2.0",
-    "fetch-mock": "^8.3.1",
-    "node-fetch": "^2.6.0",
-    "node-sass": "^4.13.1",
-    "react": "^16.12.0",
-    "react-dom": "^16.12.0",
-    "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
-    "react-test-renderer": "^16.12.0"
+    "@tanstack/react-query": "^4.8.0",
+    "@types/react": "^18.0.21",
+    "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.4.1",
+    "react-scripts": "^5.0.1",
+    "react-test-renderer": "^16.12.0",
+    "sass": "^1.55.0",
+    "typescript": "*"
   },
   "scripts": {
     "start": "react-scripts start",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
     "build": "react-scripts build",
     "test": "react-scripts test --no-cache --coverage --watchAll --transformIgnorePatterns \"node_modules/(?!your-module-name)/\"",
     "eject": "react-scripts eject"
@@ -39,7 +39,23 @@
   },
   "devDependencies": {
     "@babel/plugin-transform-react-jsx": "^7.8.3",
+    "@types/react-dom": "^18.0.6",
+    "@typescript-eslint/eslint-plugin": "^5.38.1",
+    "@typescript-eslint/parser": "^5.38.1",
     "babel-plugin-syntax-class-properties": "^6.13.0",
-    "babel-plugin-transform-class-properties": "^6.24.1"
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "eslint": "^8.24.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-config-standard-with-typescript": "^23.0.0",
+    "eslint-import-resolver-typescript": "^3.5.1",
+    "eslint-plugin-disable": "^2.0.3",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-import-helpers": "^1.2.1",
+    "eslint-plugin-n": "^15.0.0",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-promise": "^6.0.0",
+    "eslint-plugin-react": "^7.31.8",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "prettier": "2.7.1"
   }
 }
