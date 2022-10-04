@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 export const Labels = {
   author: `by Alesandro Barbosa`,
-  planetTitle: `Planets Name: `,
+  planetTitle: `Planet's Name: `,
   population: `Population`,
   climate: `Climate`,
   terrain: `Terrain`,
