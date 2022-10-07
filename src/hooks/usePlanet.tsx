@@ -1,15 +1,8 @@
-import { useQuery } from '@tanstack/react-query';
 import axios from 'axios';
+import { useQuery } from '@tanstack/react-query';
+import { IPlanets } from 'models/Planets';
 
 const PLANET_API = 'https://swapi.dev/api/planets/';
-
-interface IPlanets {
-  name?: string;
-  population?: string;
-  climate?: string;
-  terrain?: string;
-  films?: [string];
-}
 
 async function fetchPlanets() {
   const idPlanet = Math.floor(Math.random() * 60 + 1);
