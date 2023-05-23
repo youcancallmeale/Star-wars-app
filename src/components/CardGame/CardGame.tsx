@@ -15,7 +15,7 @@ import {
 } from '@mui/material';
 import { Labels } from 'app-constants';
 import ErrorComponent from 'components/ErrorComponent/ErrorComponent';
-import Loading from 'components/Loading/Loading';
+import Loading from 'components/Loading/loading';
 import { numberFormat } from 'utils/numberFormat';
 
 const CardGame = () => {
